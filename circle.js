@@ -4,15 +4,15 @@ class circle {
       this.color = color;
     }
   }
-  const circle1 = new circle("5", "red");
+  const circle1 = new circle("10", "blue");
   console.log(circle1);
   
   
   // 3.person details
   
   const student={
-      firstName:"murali",
-      lastName:"tharan",
+      firstName:"Muthamizh",
+      lastName:"arasi",
       get fullName(){
           return `${student.firstName}${student.lastName}`;
       },

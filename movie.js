@@ -1,12 +1,12 @@
 class movie {
-    #PG;
+    // #PG;
     constructor(title = " ", studio = " ", rating = " ") {
       this.title = title;
       this.studio = studio;
       this.rating = rating;
     }
   }
-  const movie1 = new movie();
+  const movie1 = new movie("Sillunu Oru Kadhal","green studio","Pg");
   console.log(movie1);
   const movie2 = new movie("gilli", "AP International", "PG");
   console.log(movie2);
