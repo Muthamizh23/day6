@@ -10,5 +10,6 @@ class person{
         console.log(`Age: ${this.age}`);
     }
 }
-const person=new person('Thamizh',23);
-person.displayDetails();
+const person1=new person('Thamizh',23);
+person1.displayDetails();
+// console.log(person.displayDetails())
